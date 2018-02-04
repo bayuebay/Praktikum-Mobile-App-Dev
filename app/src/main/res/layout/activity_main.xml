@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bayuariantikairsan_1202154127_modul1.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_eat"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/button_ab"
+        android:layout_toStartOf="@+id/button_ab"
+        android:text="@string/button_eat"
+        android:onClick="launchEatbus"/>
+
+    <Button
+        android:id="@+id/button_ab"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_eat"
+        android:layout_alignBottom="@+id/button_eat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:text="@string/button_ab"
+        android:onClick="launchAbnormal"/>
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/header_main"
+        android:textColor="@color/hitam"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_header"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/header_main2"
+        android:textColor="@color/hitam"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text_header"
+        android:layout_alignRight="@+id/text_header"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/text_makanan"
+        android:inputType="textPersonName"
+        android:text="Nasi Uduk" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_header"
+        android:layout_alignStart="@+id/text_header"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/text_porsi"
+        android:inputType="textPersonName"
+        android:text="2" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BayuAriantikaIrsan_1202154127_Modul1</string>
+    <string name="button_eat">Eatbus</string>
+    <string name="button_ab">Abnormal</string>
+    <string name="header_main2">Bersama Milea</string>
+    <string name="header_main">Makan Malam</string>
+    <string name="text_makanan">Nama Makanan</string>
+    <string name="text_porsi">Jumlah Porsi</string>
+</resources>
